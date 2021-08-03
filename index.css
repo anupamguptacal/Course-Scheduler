@@ -1,0 +1,140 @@
+/*
+
+	CSS file for index.html. 
+
+	@author - Anupam Gupta <anupamguptacal@gmail.com>
+
+*/
+
+.invisible {
+	display: none;
+}
+
+#course-list {
+	resize: both;
+	overflow: auto;
+}
+
+h1,h2 {
+	text-align: center;
+}
+
+.select-wrapper {
+	display: inline;
+}
+
+table {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#course-list select {
+	display: inline;
+	padding: 12px;
+	width: 250px;
+	border: none;
+	font-size: 20px;
+}
+
+#course-list {
+	border-radius: 10px;
+	width: 550px;
+}
+
+#subject-list {
+	margin: 15px;
+	border-radius: 10px;
+	width: 250px;
+}
+
+#course-list option {
+	cursor: pointer;
+}
+
+button { 
+	font-size: 18px;
+	margin: 25px;
+	border-radius: 10px;
+	padding: 15px;
+	text-align: center;
+	cursor: pointer;
+ }
+
+ #button {
+ 	text-align: center;
+ }
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#header {
+	background-color: hsla(199, 100%, 95%, 1);
+	width: 99%;
+	margin: auto;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+h5 {
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+.banner {
+	width: 90%;
+	border: 0.5px solid black;
+	border-radius: 10px;
+	text-align: center;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin: auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+hr {
+	text-align: center;
+	margin: 15px;
+}
+
+.green-banner {
+	background-color: hsla(133, 100%, 73%, 0.79);
+}
+
+.red-banner {
+	background-color: hsla(13, 100%, 65%, 0.86);
+}
+
+.green {
+	background-color: hsla(96, 100%, 69%, 0.76);
+}
+
+.red {
+	background-color: hsla(9, 100%, 69%, 0.8);
+}
+
+.grey {
+	background-color: grey;
+}
+
+.blue {
+	background-color: hsla(212, 72%, 64%, 0.58);
+}
+
+.yellow {
+	background-color: hsla(52, 100%, 69%, 0.81);
+}
+
+.purple {
+	background-color: hsla(285, 100%, 69%, 0.64);
+}
+
+#detail-list > li {
+	width: 70%;
+	border-radius: 10px;
+	margin: 10px;
+	overflow: auto;
+}

@@ -1,0 +1,59 @@
+<!--
+	HTML file for Course Scheduler website 
+
+	@author Anupam Gupta - <anupamguptacal.com>
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Course Scheduler </title>
+		<script type="text/javascript" src="index.js"></script>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+	</head>
+	<body>
+		<div id="header">
+			<h1> Course Scheduler </h1>
+			<h2> Schedule Timetables for offered CS and AI courses at IIT KGP</h2>
+			<h5> - Anupam Gupta </h5>
+		</div>
+		<p id="conflict-result" class="invisible banner"></p>
+		<div> 
+			<span> <strong> Choose a subject: </strong></span>
+			<select id="subject-list" name="subject-list">
+				<option value="CS" checked> CS </option>
+				<option value="AI"> AI </option>
+	  		</select>
+	  	</div>
+
+	  	<div>
+	  		<span><strong> Choose courses of interest (Use Ctrl + MouseClick to choose multiple, Scroll enabled, Max. 5): </strong></span>
+	  		<select multiple id="course-list" name="course-list">
+	  		</select>
+	  	</div>
+	  	<div id="button">
+  			<button class="invisible" id="compute-button"> Schedule Selected Courses </button>
+  		</div>
+  		
+  		<div id="course-info" class="invisible">
+  			<hr align="center"/>
+  			<h2> Selected Course Information </h2>
+  			<p id = "selected-courses">
+  				<ul id="detail-list"></ul>
+  			</p>
+  		</div>
+
+  		<div id="merged-table-space" class="invisible">
+  			<hr align="center"/>
+  			<h2> Merged Schedule </h2>
+  			<table id="merged-table"> </table>
+  		</div>
+
+  		<div id="clashed-course-space" class="invisible">
+  			<hr align="center"/>
+  			<h2> Individual Course Schedules </h2>
+  			<div id="table-container"></div>
+  		</div>
+  		<hr />
+	</body>
+</html>
