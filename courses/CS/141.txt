@@ -1,0 +1,6 @@
+CS141
+This is CSE141
+Test Course Description for CSE141
+Test Instructor for CSE141
+5
+Monday= 8:00-9:55

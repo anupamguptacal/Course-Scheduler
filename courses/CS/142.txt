@@ -1,0 +1,6 @@
+CS142
+Test Course
+Test Course Description
+Test Instructor
+4
+Monday= 12:00-12:55

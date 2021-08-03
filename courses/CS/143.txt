@@ -1,0 +1,6 @@
+CS143
+Test Course
+Test Course Description
+Test Instructor
+4
+Monday= 12:00-13:55|Tuesday= 9:00-9:55|Wednesday= 10:00-10:55|Thursday= 11:00-11:55
